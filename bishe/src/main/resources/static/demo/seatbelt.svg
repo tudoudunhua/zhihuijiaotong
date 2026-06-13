@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#2c2f46"/>
+  <rect x="100" y="80" width="760" height="380" rx="20" fill="#3d4266"/>
+  <circle cx="220" cy="160" r="52" fill="#409eff"/>
+  <text x="300" y="170" fill="#ffffff" font-size="50" font-family="Arial">NO SEATBELT</text>
+  <text x="120" y="430" fill="#dde8ff" font-size="30" font-family="Arial">Demo Evidence Image</text>
+</svg>

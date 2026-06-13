@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#2f2f2f"/>
+  <rect x="100" y="80" width="760" height="380" rx="20" fill="#4a4a4a"/>
+  <circle cx="220" cy="160" r="52" fill="#909399"/>
+  <text x="300" y="170" fill="#ffffff" font-size="56" font-family="Arial">OTHER VIOLATION</text>
+  <text x="120" y="430" fill="#f1f1f1" font-size="30" font-family="Arial">Demo Evidence Image</text>
+</svg>

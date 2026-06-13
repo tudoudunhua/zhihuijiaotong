@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#0f2438"/>
+  <rect x="90" y="70" width="780" height="400" rx="16" fill="#1f3f5f"/>
+  <circle cx="220" cy="160" r="52" fill="#e6a23c"/>
+  <text x="300" y="170" fill="#ffffff" font-size="54" font-family="Arial">SPEEDING</text>
+  <text x="120" y="430" fill="#d6e9ff" font-size="30" font-family="Arial">Demo Evidence Image</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b2f3a"/>
+      <stop offset="100%" stop-color="#1a1d24"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect x="120" y="80" width="720" height="380" rx="20" fill="#ffffff" opacity="0.08"/>
+  <circle cx="220" cy="160" r="52" fill="#f56c6c"/>
+  <text x="300" y="170" fill="#ffffff" font-size="54" font-family="Arial">RED LIGHT VIOLATION</text>
+  <text x="120" y="430" fill="#ffdede" font-size="30" font-family="Arial">Demo Evidence Image</text>
+</svg>

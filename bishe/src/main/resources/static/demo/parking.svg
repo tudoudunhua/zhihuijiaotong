@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#203040"/>
+  <rect x="100" y="80" width="760" height="380" rx="20" fill="#2e4a62"/>
+  <circle cx="220" cy="160" r="52" fill="#67c23a"/>
+  <text x="300" y="170" fill="#ffffff" font-size="54" font-family="Arial">ILLEGAL PARKING</text>
+  <text x="120" y="430" fill="#e1ffe0" font-size="30" font-family="Arial">Demo Evidence Image</text>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "启动 ViolationApplication (Spring Boot)",
+      "request": "launch",
+      "mainClass": "com.zhihui.bishe.ViolationApplication",
+      "projectName": "bishe",
+      "cwd": "${workspaceFolder}/bishe"
+    }
+  ]
+}

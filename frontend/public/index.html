@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      // 忽略 ResizeObserver 错误（Element Plus 已知问题，不影响功能）
+      const originalError = window.console.error;
+      window.console.error = function(...args) {
+        if (
+          args.length > 0 &&
+          typeof args[0] === 'string' &&
+          args[0].includes('ResizeObserver loop completed with undelivered notifications')
+        ) {
+          return;
+        }
+        originalError.apply(console, args);
+      };
+
+      // 捕获未处理的错误
+      window.addEventListener('error', function(event) {
+        if (
+          event.message &&
+          event.message.includes('ResizeObserver loop completed with undelivered notifications')
+        ) {
+          event.preventDefault();
+          return false;
+        }
+      }, true);
+
+      // 捕获未处理的 Promise 拒绝
+      window.addEventListener('unhandledrejection', function(event) {
+        if (
+          event.reason &&
+          typeof event.reason === 'string' &&
+          event.reason.includes('ResizeObserver')
+        ) {
+          event.preventDefault();
+          return false;
+        }
+      });
+    </script>
+  </body>
+</html>
